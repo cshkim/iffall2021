@@ -33,20 +33,17 @@ img {
 .shows li div {
     font-size: 0.8rem;
 }
-.shows li div:first-of-type {
-    font-weight: 800;
+section.cast ul li a div:nth-child(2){
+    font-weight: bold;
 }
-.shows li div:nth-of-type{
-    font-weight: 800;
-}
-.shows li div:nth-of-type(2) {
+section.cast ul li a div:nth-child(3){
     font-style: italic;
 }
-#game-of-thrones li:last-of-type:after {
-    content:"*"
+section.seasons ul li:last-child::after{
+    content: "*";
 }
-#game-of-thrones.seasons ul::after{
+section.synopsis::before{
     content: "* Final Season";
-    color: #999;
     font-size: 0.7rem;
+    color: #999;
 }
