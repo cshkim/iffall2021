@@ -1,0 +1,131 @@
+body {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.content {
+    width: 800px;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+    background-image: url(https://i.kym-cdn.com/entries/icons/original/000/031/502/Untitled-2.jpg);
+    background-size: 50%;
+    background-position: center;
+    height: 380px;
+    padding-top: 98px;
+}
+
+h1{
+    font-size: 61pt;
+    margin:auto;
+    margin-bottom: -3pt;
+    color: rgb(177, 22, 35);
+}
+h2{
+    margin-top: 0;
+    font-size: 22.5pt; 
+    color:rgb(66, 41, 9) ;
+}
+
+h3{
+   text-align: center; 
+   font-size: 30pt;
+   margin-bottom:0px;
+   margin-top:40px;
+}
+p{
+    font-size: 13.4pt;
+    line-height: 19pt;
+}
+
+.cheese p:first-of-type{
+    padding-top:15px;
+}
+
+.sections{
+    width: 960px;
+    margin: auto;
+}
+.pikaketchup {
+    color:rgb(66, 41, 9);
+    background-color:white;
+    background-size: cover;
+    overflow-x: hidden;
+    padding-bottom: 32px;
+}
+.firstpik{
+    height: 300px;
+    width: 400px;
+    float: right;
+    object-fit: cover;
+    border: solid white;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.pikagrid {
+    background-color:rgb(177, 22, 35) ;
+    color:goldenrod;
+    background-size: cover;
+    overflow-x: hidden;
+    padding-bottom: 31px;
+}
+.grid {
+    display:grid;
+    padding:0; 
+    grid-template-columns: 1fr 1fr;
+    padding-top: 20px;
+}
+.grid li{
+    align-items: left;
+    display: inline-block;
+    width:100%;
+    margin-bottom: 21px;
+    padding-top: 2px;
+}
+.grid li img{
+    width: 200px;
+    height: 150px;
+    float:left;
+    margin-right:10px;
+}
+h4 {
+    font-size: 16pt;
+    margin:0;
+    padding-bottom: 0pt;
+}
+.photo-text{
+    font-size: 13.5pt;
+    width:90%;
+    line-height: 20pt;
+}
+
+
+.nopika{
+    color:rgb(66, 41, 9) ;
+    background-color:goldenrod;
+    background-size: cover;
+    overflow-x: hidden;
+    padding-bottom:98px;
+}
+
+.lasttext {
+    width: 710px;
+    margin: auto; 
+    margin-top: 30px;
+    text-align: center;
+    font-size: 19pt;
+    line-height: 27pt;
+}
+
+footer {
+    background-color:white;
+    background-size: cover;
+    overflow: hidden;
+    color:rgb(66, 41, 9) ;
+    padding-top:30pt;
+    padding-left: 180pt; 
+    padding-bottom: 30pt;
+    font-size: 14pt;
+}
