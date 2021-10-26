@@ -1,7 +1,6 @@
 body {
     font-family: 'Raleway', sans-serif;
 font-family: 'Roboto Mono', monospace;
-
 }
 
 header {
@@ -86,29 +85,33 @@ sub {
 .fry {
     width: auto;
     height: 200px;
-    align-items: center;
+    align-items: left;
     padding-bottom: 30px;
+    padding-right: 100px;
 }
 
 .done {
     width: auto;
     height: 200px;
-    align-items: center;
+    align-items: left;
     padding-bottom: 30px;
+    padding-right: 100px;
 }
 
 .fin {
     width: auto;
     height: 200px;
-    align-items: center;
+    align-items: left;
     padding-bottom: 30px;
+    padding-right: 100px;
 }
 
 .rice {
     width: auto;
     height: 200px;
-    align-items: center;
+    align-items: cenleftter;
     padding-bottom: 30px;
+    padding-right: 100px;
 }
 
 footer {
