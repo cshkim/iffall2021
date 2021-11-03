@@ -1,0 +1,426 @@
+.buttongrids{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+div{
+    height:300px;
+    width: 300px;
+    border:1px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    display:inline-block;
+    width:100%;
+    text-align: center;
+}
+
+.dancing {
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.raj {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.anton {
+    font-family: 'Anton', sans-serif;
+}
+
+.noto {
+    font-family: 'Noto Serif Display', serif;
+}
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+.jose{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#coke{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 100px;
+    background-color: white;
+    color: red;
+}
+#coke span{
+    position: relative;
+    top:35px;
+    font-size: 18pt;
+}
+#coke:hover {
+    background-color: red;
+    color: white;
+    transition: 300ms;
+}
+
+#apple{
+    display: inline-block;
+    height: 30px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgb(168, 168, 168);
+    color: white;
+    align-items: center;
+}
+#apple span{
+    position: relative;
+    top: 5px;
+    font-size: 13pt;
+}
+#apple:hover{
+    background-color:black;
+    transition: 300ms;
+}
+#apple span:hover{
+    transform: scale(1.6);
+    transition: 300ms;
+}
+
+#ibm{
+    position: relative;
+    top: -5px;
+    font-size: 50pt;
+    color: black;
+}
+#ibm:hover{
+    transform: scale(1.5);
+    color: rgb(47, 0, 255);
+    transition: 400ms;
+}
+
+#hasbro{
+    color: rgb(108, 240, 0);
+    font-size: 40pt;
+}
+#hasbro:hover{
+    color: rgba(0, 185, 0, 0.685);
+    font-size: 30pt;
+    transition: 200ms;
+}
+
+#mbg span{
+    color: green;
+    position: relative;
+    top: -10px;
+}
+#mbg:hover{
+    display: block;
+    background-color: green;
+    height: 30px;
+    width: 200px;
+    padding: 6px;
+    border-radius: 10px;
+    transition: 400ms;
+}
+#mbg span:hover{
+    color: white;
+    position: relative;
+    top: 3px;
+    transition: 300ms;
+}
+
+#mk{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 100px;
+    background-color: rgb(255, 227, 136);
+}
+#mk span{
+    position: relative;
+    top: 10pt;
+    font-size: 48pt;
+    color: white;
+    font-weight: bold;
+}
+#mk:hover{
+    background-color:rgb(197, 162, 46); 
+    transition: 200ms;
+}
+    
+
+#ideo span{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 40pt;
+    color: gray;
+}
+#ideo span:hover{
+    color: black;
+    transition: 200ms;
+    font-weight: bold;
+}
+
+#kit{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 100px;
+    background-color: rgb(255, 126, 40);
+}
+#kit span{
+    font-weight: bold;
+    color: white;
+    font-size: 30pt;
+    position: relative;
+    right: 40px;
+}
+#kit:hover{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 200px;
+    background-color: rgb(255, 60, 0);
+    transition: 300ms;
+    transform: rotate(360deg);
+}
+#kit span:hover{
+    position:relative;
+    top: 60px;
+    left: 1px;
+    font-weight: bold;
+    justify-items: center;
+    font-size: 25pt;
+}
+
+#fb{
+    display: inline-block;
+    height:100px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgb(0, 110, 255);
+    transition: 200ms;
+}
+#fb span{
+    color: white;
+    position: relative;
+    font-size: 100pt;
+    font-weight: 700;
+}
+#fb:hover{
+    background-color: rgb(0, 54, 126);
+    transition: 200ms;
+}
+
+#lyft{
+    color: rgb(255, 88, 144);
+}
+#lyft span{
+    font-size: 40pt;
+    font-weight: bolder;
+}
+#lyft:hover{
+    display: block;
+    background-color: rgb(255, 88, 144);
+    height:60px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 30px;
+    transition: 200ms;
+    color: white;
+}
+
+#samsung{
+    display: block;
+    background-color: rgb(50, 53, 255);
+    height: 35px;
+    width: 170px;
+    padding: 10px;
+    border-radius: 20px;
+}
+#samsung span{
+    font-size: 20pt;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 0.2em;
+}
+#samsung:hover{
+    background-color: white;
+    transition: 500ms;
+}
+#samsung span:hover{
+    color:rgb(50, 53, 255);
+}
+
+#cycles{
+    display: block; 
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    border-radius: 100px;
+    background-color: pink;
+}
+#cycles span{
+    font-size: 20pt;
+    color: rgb(74, 74, 161);
+}
+#cycles:hover{
+    transform: scale(0.7) rotate(720deg);
+    transition: 700ms;
+}
+
+#cn{
+    display: block;
+    height: 80px;
+    width: 110px;
+    padding: 8px;
+    background-color: black;
+}
+#cn span{
+    color: white;
+    font-weight: 1000;
+    font-size: 50pt;
+    letter-spacing: 0.2em;
+}
+#cn:hover{
+    background-color: white;
+    transition: 300ms;
+    transform: scale(1.5);
+}
+#cn span:hover{
+    color: black;
+}
+
+#nike span{
+    font-size: 40pt;
+    font-weight: 700;
+    color: black;
+}
+#nike span:hover{
+    font-style: italic;
+    color: orange;
+    transition: 300ms;
+}
+
+#ig span{
+    font-size: 30pt;
+    color: rgb(120, 34, 201);
+}
+#ig:hover{
+    display: block;
+    height: 50px;
+    width: 170px;
+    padding: 8px;
+    border-radius: 20px;
+    background-color: rgb(216, 53, 238);
+    transition: 400ms;
+}
+#ig span:hover{
+    color: white;
+}
+
+#ny span{
+    color: black;
+    font-size: 20pt;
+}
+#ny span:hover{
+    text-decoration: underline;
+    transition: 500ms;
+}
+
+#moo{
+    display: block; 
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 100px;
+    background-color: rgb(52, 124, 30);
+}
+#moo span{
+    color: white;
+    font-size: 20pt;
+    position: relative;
+    top: 10px;
+}
+#moo:hover{
+    height: 80px;
+    width: 120px;
+    background-color:rgb(28, 68, 16);
+    transition: 300ms;
+}
+#moo span:hover{
+    font-size:40pt;
+    transition: 300ms;
+}
+
+#old span{
+    font-size: 30pt;
+    font-weight: 700;
+    color: navy;
+}
+#old:hover{
+    display: block; 
+    height: 50px;
+    width: 220px;
+    padding: 10px;
+    border-radius: 100px;
+    background-color: navy;
+    transition: 500ms;
+}
+#old span:hover{
+    color: white;
+}
+
+#tesla{
+    display: block;
+    height: 50px;
+    width: 80px;
+    background-color: white;
+}
+#tesla span{
+    font-size: 20pt;
+    color: gray;
+    position: relative;
+    top: 10px;
+}
+#tesla:hover{
+    background-color: black;
+    transition: 500ms;
+}
+#tesla span:hover{
+    color: white;
+}
+
+
+
+#ebike{
+    display: block; 
+    height: 100px;
+    width: 110px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: black;
+}
+#ebike span{
+    color: white;
+    font-weight: 500;
+    font-size: 20pt;
+}
+#ebike:hover{
+    transform: rotate(720deg);
+    height: 100px;
+    width: 110px;
+    padding: 10px;
+    border-radius: 100px;
+    background-color: rgb(255, 218, 52);
+    transition: 800ms;
+}
+#ebike span:hover{
+    font-size: 17pt;
+    position: relative;
+    top: 4px;
+    color: black;
+}
+
