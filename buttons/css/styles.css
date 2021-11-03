@@ -16,7 +16,10 @@ span{
     width:100%;
     text-align: center;
 }
-
+header{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 50pt;
+ }
 .dancing {
     font-family: 'Dancing Script', cursive;
 }
