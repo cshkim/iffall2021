@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/049657f600.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Kurale&family=Raleway:wght@100&family=Roboto+Mono:wght@200;300;400;500;600&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+   
+    <nav id='navBig'>
+        <a class='hp' href="index.html">HISTORY OF MUNICH</a>
+        <a class="tab" href="Prehistory.html">Prehistory</a>
+        <a class="tab" href="Roman.html">Roman Period</a>
+        <a class="tab" href="Origin.html">Origin of Medieval</a>
+        <a class="tab" href="capital.html">Capital of Reunited Bavaria</a>
+        <a class="tab" href="WW.html">WWI-WWII</a>
+        <a class="tab" href="postwar.html">Post War</a>
+    </nav>
+    <a class='small' id='small-title' href="index.html">HISTORY OF MUNICH</a>
+        HISTORY OF MUNICH
+    </h1>
+    <nav id='navSmall' class='small'>
+        <h1 class='hp'> 
+            <i id='menu' class="small fas fa-bars"></i>
+            <span id='menuLabel'> MENU</span>
+        </h1>
+
+        <div id='navSmall-links'>
+            <a class="tab" href="Prehistory.html">Prehistory</a>
+            <a class="tab" href="Roman.html">Roman Period</a>
+            <a class="tab" href="Origin.html">Origin of Medieval</a>
+            <a class="tab" href="capital.html">Capital of Reunited Bavaria</a>
+            <a class="tab" href="WW.html">WWI-WWII</a>
+            <a class="tab" href="postwar.html">Post War</a>
+        </div>
+    </nav>
+
+   
+
+    <script>
+        let menuButton = document.getElementById("menu");
+        let menuBig = document.getElementById("navBig");
+        let menuSmall = document.getElementById('navSmall-links');
+        let menuLabel = document.getElementById('menuLabel');
+        let smallnav = document.getElementById('navSmall');
+        let isShowing = false;
+        menu.addEventListener("click", function(){ 
+            if(!isShowing){
+                menuSmall.style.display = 'flex';
+                menuSmall.style.flexDirection = 'column';
+                menuLabel.style.display = 'inline-block';
+                smallnav.style.height = 'fit-content';
+            }
+            else{
+                console.log('hello')
+                menuSmall.style.display = 'none';
+                menuLabel.style.display = 'none';
+                smallnav.style.height = '0';
+            }
+            isShowing = !isShowing;
+        })
+    </script>
+</body>
+
+    <h2>Roman Period</h2>
+
+    <p>The ancient Roman road Via Julia, which connected Augsburg and Salzburg, crossed over the Isar River south of modern-day Munich, at the towns of Baierbrunn and Gauting. A Roman settlement north-east of downtown Munich was excavated in the neighborhood of Denning/Bogenhausen.</p>
