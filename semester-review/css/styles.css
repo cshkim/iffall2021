@@ -1,0 +1,32 @@
+html {
+    background-color: rgb(154, 255, 200);
+}
+
+h1 { 
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    color: rgb(16, 100, 86);
+    padding-bottom: 2em;
+
+}
+
+body {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    margin: auto; 
+    text-align: center;
+}
+
+#buttons {
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 1em;
+}
